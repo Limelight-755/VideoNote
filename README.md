@@ -27,7 +27,7 @@
 
 ![noteshow1](noteshow1.png)
 
-![noteshow2](E:\VideoNote\noteshow2.png)
+![noteshow2](noteshow2.png)
 
 运行前请确保你的环境匹配，并请自行更换`API-KEY `和`API-BASE`
 
