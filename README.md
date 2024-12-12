@@ -39,7 +39,7 @@
 
 运行顺序
 
-```python
+```bash
 python KeyFrameExtract.py
 python deleteSomePic.py
 streamlit run app.py
