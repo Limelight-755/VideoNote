@@ -1,0 +1,73 @@
+{
+    "all_title": "Vision Pro",
+    "notes": [
+        {
+            "start_time": "00:03:00",
+            "end_time": "00:05:30",
+            "title": "Introduction to Vision Pro",
+            "text": [
+                "The presenter expresses excitement about Vision Pro citing its uniqueness.",
+                "Discussion includes how it stands apart from recent Apple products and the innovative aspects it introduces.",
+                "The device represents a new venture for Apple in the VR space, promising potential for future development."
+            ],
+            "direct_show_img": [
+                "keyframe_15689.jpg",
+                "keyframe_27317.jpg"
+            ],
+            "segment_img": [
+                "keyframe_5015.jpg",
+                "keyframe_11918.jpg"
+            ],
+            "wordcloud_word": [
+                "Vision Pro",
+                "unique",
+                "innovation",
+                "Apple",
+                "new",
+                "VR",
+                "future",
+                "development",
+                "exciting",
+                "introduction"
+            ]
+        },
+        {
+            "start_time": "00:05:30",
+            "end_time": "00:07:30",
+            "title": "Technical Features and Display",
+            "text": [
+                "The Vision Pro's advanced display technology and eye tracking are highlighted.",
+                "Using micro-OLED screens, it offers exceptional resolution and color accuracy.",
+                "The video delves into foveated rendering and its importance for efficient performance."
+            ],
+            "direct_show_img": [
+                "keyframe_16048.jpg",
+                "keyframe_3304.jpg"
+            ],
+            "segment_img": [
+                "keyframe_10643.jpg",
+                "keyframe_25607.jpg"
+            ],
+            "wordcloud_word": []
+        },
+        {
+            "start_time": "00:07:30",
+            "end_time": "00:10:00",
+            "title": "Design Considerations",
+            "text": [
+                "Vision Pro's design prioritizes immersive experiences but comes with weight challenges.",
+                "The ergonomics are well-planned, though the device's weight is noted as a potential downside.",
+                "Comparison with other VR headsets shows both advantages and compromises in design."
+            ],
+            "direct_show_img": [
+                "keyframe_5015.jpg",
+                "keyframe_8758.jpg"
+            ],
+            "segment_img": [
+                "keyframe_37787.jpg",
+                "keyframe_31683.jpg"
+            ],
+            "wordcloud_word": []
+        }
+    ]
+}
