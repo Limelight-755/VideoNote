@@ -30,11 +30,11 @@ streamlit run app.py
 
 ### 使用效果
 
-![noteapp](noteapp.png)
+![noteapp](asset/noteapp.png)
 
-![noteshow1](noteshow1.png)
+![noteshow1](asset/noteshow1.png)
 
-![noteshow2](noteshow2.png)
+![noteshow2](asset/noteshow2.png)
 
 
 
