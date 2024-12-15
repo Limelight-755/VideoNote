@@ -95,4 +95,4 @@ def extract_keyframes(videopath, output_dir='./extractimg/', len_window=50, fram
 
 
 # Example usage:
-extract_keyframes('information/86Gy035z_KA.mp4', './extractimg/', len_window=50, frame_interval=1)
+extract_keyframes('information/86Gy035z_KA.mp4', '../extractimg/', len_window=50, frame_interval=1)

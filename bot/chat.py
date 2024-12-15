@@ -1,8 +1,7 @@
 import json
 
 import openai
-import basicfunction
-import re
+from datapre import basicfunction
 import NoteContent
 import questionresponse
 
@@ -11,9 +10,9 @@ openai.api_base = "YOUR-API-BASE"
 
 
 def get_gpt_response(user_message, max_tokens=1000):
-    prompt_file_path = 'general prompt.md'
+    prompt_file_path = '../prompt/general prompt.md'
     prompt_content = basicfunction.read_prompt_file(prompt_file_path)
-    srt_file_path = 'information/transcript.srt'
+    srt_file_path = '../information/transcript.srt'
     total_duration = basicfunction.get_total_duration_from_srt(srt_file_path)
     formatted_duration_hms = basicfunction.format_timedelta_to_hms_string(total_duration)
     content_with_prompt = {
@@ -52,9 +51,9 @@ def handle_response(response):
         end_time = response["time"]["end"]
         # Call the function to process based on the extracted time
         response_content = NoteContent.process_images_and_generate_response(
-            image_dir="./extractimg",
-            srt_file_path="information/transcript.srt",
-            prompt_file_path="prompt1.md",
+            image_dir="../extractimg",
+            srt_file_path="../information/transcript.srt",
+            prompt_file_path="../prompt/prompt1.md",
             start_time=start_time,
             end_time=end_time
         )
@@ -63,9 +62,9 @@ def handle_response(response):
         question = response["question"]
 
         response_content = questionresponse.gpt_answer_to_question(
-                image_dir="./extractimg",
-                srt_file_path="information/transcript.srt",
-                prompt_file_path="prompt3.md",
+                image_dir="../extractimg",
+                srt_file_path="../information/transcript.srt",
+                prompt_file_path="../prompt/prompt3.md",
                 question=question,
         )
 

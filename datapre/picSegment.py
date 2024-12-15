@@ -17,7 +17,7 @@ def process_images(json_data, output_dir):
         segment_imgs = note.get('segment_img', [])
         for img_path in segment_imgs:
             # 检查图像文件是否存在
-            img_full_path = Path('extractimg') / img_path
+            img_full_path = Path('../extractimg') / img_path
             if not img_full_path.is_file():
                 print(f"Image {img_path} not found, skipping.")
                 continue

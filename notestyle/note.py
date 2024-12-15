@@ -1,10 +1,8 @@
 import streamlit as st
 import random
 import json
-import style1  # 导入各个 style 文件
-import style2
-import style3
-import basicfunction
+from notestyle import style1, style3, style2
+
 
 # 处理单个 note 的内容并决定调用哪个 style 文件
 def process_note_block(note, idx):

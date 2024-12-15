@@ -1,10 +1,10 @@
 import json
 
 import streamlit as st
-import basicfunction
-import chat  # GPT 相关模块
-import note
-import picSegment
+from bot import chat
+from notestyle import note
+from datapre import picSegment, basicfunction
+
 
 # 保留全局样式，只修改对话框部分
 def set_custom_style():

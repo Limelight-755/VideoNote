@@ -1,6 +1,6 @@
 import os
 import openai
-import basicfunction
+from datapre import basicfunction
 
 # 初始化 OpenAI API
 openai.api_key = "YOUR-API-KEY"
